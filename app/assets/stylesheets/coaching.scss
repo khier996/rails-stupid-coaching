@@ -1,0 +1,44 @@
+// Place all the styles related to the Coaching controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+.wrapper-centered {
+  width: 400px;
+  height: 300px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px 5px grey;
+}
+
+.text-centered {
+  text-align: center;
+}
+
+.search-bar {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 250px;
+  height: 20px;
+}
+
+.btn-centered {
+  position: relative;
+  left: 45%;
+  top: 40px;
+}
+
+.small {
+  font-size: 1rem;
+  color: grey;
+}
+
+.centered {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
